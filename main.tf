@@ -9,7 +9,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "terrastatebyucket00789700"
+    bucket = "terrastatebyucket0078970778"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
@@ -368,7 +368,7 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "pipleinbucket0088bdhuwtrrrrf3t5hd8e82"
+  bucket = "pipleinbucket0088bdhuwtrrrrf3t5hd8e8r"
 }
 
 
